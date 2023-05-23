@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+    margin-top: 50px;
+}
+.purchasediv{
+
+}
+.container img{
+    cursor: pointer;
+}

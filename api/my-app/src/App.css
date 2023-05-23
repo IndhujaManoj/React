@@ -1,0 +1,18 @@
+
+
+
+.navBar{
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+   background-color:purple; 
+}
+nav{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}

@@ -1,0 +1,43 @@
+/* .App {
+  text-align: center;
+} */
+/* .appdiv{
+  border: 2px solid black;
+padding: 25px;
+ background-color: lavender;
+}*/
+
+.navBar{
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color:navy;
+}
+ nav{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.links{
+  color:wheat;
+  text-decoration: none;
+}  
+.para h1{
+  color: rgb(5, 100, 138);
+}
+.para h3{
+  color:#002;
+}
+.logo{
+  display: grid;
+  place-items: center;
+}
+.bg{
+  background-image: url(../src/images/shopping.avif);
+  background-size: cover;
+  height: 90vh;
+}

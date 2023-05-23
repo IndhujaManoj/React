@@ -1,0 +1,19 @@
+.myform input{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.myform button{
+    background-color: blue;
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.myform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+

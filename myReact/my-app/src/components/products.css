@@ -1,0 +1,28 @@
+.myproducts{
+    display: grid;
+    grid-template-columns: repeat(3,600px);
+    justify-content: space-between;
+    row-gap: 40px;
+    background-color: steelblue;
+}
+.myproducts img{
+    height: 250px;
+    width: 300px;
+}
+.card{
+    background-color:wheat;
+}
+.cartdiv{
+    display: flex;
+    justify-content: end;
+    background-color: slategrey;
+}
+.cartdiv img{
+    height: 50px;
+    cursor: pointer;
+}
+.cartdiv img:hover{
+    background-color:thistle;
+}
+
+
