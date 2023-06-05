@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.inputslog {
+    background-color: #ec0999; 
+    height: 75vh;
+    width: 85vw;
+    
+}
+
+.align {
+    gap: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.pass{
+    display: flex;
+    flex-direction: column;
+}
+.name input[type='text']{
+    width: 200px;
+}
+.pass input[type='text']{
+    width: 200px;
+}
+.ok{
+    padding: 20px;
+}
+.ok button{
+    padding: 7px;
+    border-color: navy;
+    border-radius: 10px;
+    background-color: blue;
+    color: wheat;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.resume{
+  
+   
+    display: flex;
+    justify-content: center;
+    background-color:#d1751f;
+    align-items: center;
+    height: 75vh;
+    /* margin:0 250px */
+}
+.inputs input[type='checkbox']{
+    gap: none;
+}
+.inputs{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 10px;
+
+    font-size: 20px;
+     /* padding:100px 150px;  */
+}
+.inputs input{
+    border-radius: 10px;
+    padding: 7px;
+    border: none;
+}
+.buttonSub button{
+    padding: 5px;
+    border-radius: 10px;
+    border-color:rgb(175, 37, 83);
+    background-color:rgb(175, 37, 83);
+    color: wheat;
+}
+.inputs input text{
+    background-color: #d1751f;
+}
+.inputs select {
+   border-radius: 10px;
+   padding: 7px;
+   border: none;
+}
+
+.view{
+    background-color: #d1751f;
+}
+ /* input[type='text']{
+    width: 200px;
+}
+select {
+    width: 200px;
+}
+input[type='checkbox']{
+    width: 200px;
+} */

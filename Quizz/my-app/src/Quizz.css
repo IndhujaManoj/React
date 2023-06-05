@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(100, 160, 51);
+    
+}
+.one{
+    display: flex;
+    flex-direction: column;
+
+}
+/* .error{
+    background-color: teal;
+} */
+p{
+    color: red;
+}
+.ok button{
+    padding: 10px;
+    background-color: blue;
+    color: wheat;
+    border-radius: 25%;
+}

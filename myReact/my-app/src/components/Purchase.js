@@ -6,7 +6,7 @@ function Purchase({ purchase, deleteItems }) {
     function handledeleteItems(index) {
         console.log("del", index)
         const updatedPurchase = purchase.filter((item, i) => i !== index);
-         console.log(updatedPurchase,"up")
+        //  console.log(updatedPurchase,"up")
         deleteItems(index);
     };
 
