@@ -8,10 +8,6 @@ import images from './images.jpeg'
 function Create() {
   
   const [getproduct, setproductDetails] = useState([{'request':'getCourses'}])
-
- 
-  
-
   const getValue = async () => {
     const { data } = await axios.get("http://karka.academy/api/action.php", getproduct);
     setproductDetails(data)

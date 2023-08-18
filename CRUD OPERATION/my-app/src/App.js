@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
 import AddTask from './Components/AddTask';
@@ -15,11 +14,11 @@ function App() {
 
       <Row className="justify-content-md-center">
         <Col lg="6">
-        <AddTask />
-        <TaskList/>
+          <AddTask />
+          <TaskList />
         </Col>
       </Row>
-     
+
     </Container>
 
   );
