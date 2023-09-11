@@ -1,0 +1,14 @@
+server {
+  listen 8082;
+  listen [::]:8082;
+  underscores_in_headers on;
+
+  charset koi8-r;
+  access_log  /var/log/nginx/host.access.log  main;
+
+  location / {
+    root   /usr/share/nginx/html;
+    index  index.html index.htm;
+    try_files $uri $uri/ /;
+  }
+}

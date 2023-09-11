@@ -1,0 +1,384 @@
+.predictions__breadcrumbs {
+    ol {
+      margin-bottom: 0;
+    }
+  }
+  
+  .prediction-status {
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 12px;
+  
+    &.approved {
+      border: 1px solid #00875a;
+      color: #00875a;
+      background: #ddf6ee;
+    }
+    &.rejected {
+      border: 1px solid #f5365c;
+      color: #f5365c;
+      background: #ffdee5;
+    }
+  }
+  
+  .prediction-comment {
+    span {
+      color: #777f85;
+      font-weight: 600;
+    }
+    p {
+      font-weight: 600;
+      color: #32325d;
+    }
+  }
+  
+  .prediction-summary {
+    border: 1px solid #dfe1e6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    .title {
+      padding: 20px 0px 20px 24px;
+      margin-bottom: 0;
+    }
+    .info-icon {
+      width: 16px;
+      height: 16px;
+      margin-left: 8px;
+    }
+    .prediction-summary_details--row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 1.1em 24px;
+    }
+    .details-data {
+      display: flex;
+      flex-basis: 25%;
+      flex-direction: column;
+      span {
+        font-weight: 600;
+        display: inline-block;
+        width: 10rem;
+        white-space: normal;
+        font-size: 14px;
+      }
+      label{
+        font-size: 14px;
+        color:#777F85;
+      }
+    }
+  }
+  
+  .subcategory-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 1em;
+    border: 1px solid #dfe1e6;
+    border-radius: 8px;
+  }
+  
+  .subcat_features-section {
+    border: 1px solid #dfe1e6;
+    border-radius: 8px;
+    padding: 20px 24px 24px 24px;
+    .info-icon {
+      display: flex;
+      width: 16px;
+      height: 16px;
+      margin-left: 8px;
+      margin-top: -6px;
+    }
+  }
+  
+  .single-subcategory {
+    padding: 10px;
+    outline: none;
+    border: 1px solid #dfe1e6;
+    border-radius: 8px;
+    background: #f7fafc;
+    margin-top: 14px;
+    &.hidden {
+      display: none;
+    }
+    .subcategory-details {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .details-data {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        flex-basis: 24%;
+        margin: 5px;
+        span {
+          font-weight: 600;
+          display: inline-block;
+          width: 10rem;
+          white-space: normal;
+          padding-bottom: 10px;
+        }
+      }
+    }
+  }
+  
+  .prediction-logs__button:hover {
+    background-color: transparent !important;
+    color: #5e72e4;
+  }
+  
+  // prediction id card
+  
+  .predictionid-list {
+    list-style-type: none;
+    padding: 0 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    li {
+      cursor: pointer;
+      border-bottom: 1px solid #dfe1e6;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 1em 0;
+      white-space: nowrap;
+      width: 199px;
+  
+      &.active {
+        font-weight: 600;
+        background: #deebff;
+        border-radius: 4px;
+        .active-fi-icon {
+          color: #0747a6;
+        }
+      }
+    }
+  }
+  
+  // ml feedback section
+  
+  .ml-feedback-section {
+    margin-top: 32px;
+    padding: 20px 24px 24px 24px;
+    border: 1px solid #dfe1e6;
+    border-radius: 8px;
+  
+    .title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      margin-left: 2px;
+      .info-icon {
+        display: flex;
+        width: 16px;
+        height: 16px;
+        margin-left: 8px;
+      }
+    }
+    .feedback-container {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #dfe1e6;
+      border-radius: 8px;
+  
+      .chip {
+        display: flex;
+        width: auto;
+        background: #ffdee590;
+        border: 1px solid #f5365c;
+        padding: 2px 10px;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 12px;
+        color: #f5365c;
+        margin: 20px 18px 0px 24px;
+      }
+      .feedback-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+  
+        .original.chip {
+          border: 1px solid #4c9aff;
+          color: #0052cc;
+          background: #deebff;
+        }
+        .fields-container {
+          padding-top: 14px;
+          width: 100%;
+        }
+      }
+      .feedback-row.original-feedback {
+        background: #f9f9f9;
+        border-radius: 8px 8px 0px 0px;
+        border-bottom: 1px solid #dfe1e6;
+      }
+      .btn-container {
+        display: flex;
+        padding: 16px 0px 20px 0px;
+        margin: 0px 24px;
+        width: calc(100% - 48px);
+        border-top: 1px solid #e9ecef;
+  
+        .action-btn {
+          outline: none;
+          border: none;
+          border-radius: 4px;
+          padding: 8px 20px;
+          font-weight: 600;
+          font-size: 14px;
+          color: white;
+          background: #0747a6;
+          box-shadow: 0px 4px 6px rgba(50, 50, 93, 0.11),
+            0px 1px 3px rgba(0, 0, 0, 0.08);
+          border-radius: 4px;
+        }
+        .action-btn.cancel {
+          margin-left: 10px;
+          box-shadow: none;
+          background: #f7fafc;
+          color: #212529;
+          box-shadow: 0px 4px 6px rgba(50, 50, 93, 0.11),
+            0px 1px 3px rgba(0, 0, 0, 0.08);
+        }
+      }
+      .btn-container.no-border {
+        border-top: none;
+      }
+      .fields-container {
+        display: flex;
+        padding: 16px 18px 24px 24px;
+        .field-holder {
+          flex: 1;
+          display: flex;
+          padding: 0 16px;
+          flex-direction: column;
+          .label {
+            font-weight: 600;
+            font-size: 14px;
+            color: #777f85;
+            margin-bottom: 2px;
+          }
+          .value {
+            font-weight: 600;
+            font-size: 14px;
+            color: #32325d;
+          }
+          .edit-select {
+            margin-top: 6px;
+          }
+          .edit-textarea {
+            outline: none;
+            margin-top: 6px;
+            background: #ffffff;
+            border: 1px solid #dee2e6;
+            box-shadow: 0px 3px 2px rgba(233, 236, 239, 0.05);
+            border-radius: 4px;
+            padding: 8px 12px;
+            font-weight: 600;
+            font-size: 14px;
+            color: #32325d;
+          }
+        }
+        .field-holder:first-child {
+          padding-left: 0;
+        }
+        .field-holder:last-child {
+          padding-right: 0;
+        }
+        .field-holder.query-field {
+          flex: 2;
+        }
+        .edit-btn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 28px;
+          height: 28px;
+          margin-left: 24px;
+          outline: none;
+          background: white;
+          color: #000;
+          border: 1px solid #dfe1e6;
+          border-radius: 6px;
+          padding: 6px;
+        }
+        .edit-btn.hidden {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+  
+  // prediction review
+  
+  .prediction-analyze-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .prediction-review-modal {
+    .asterick {
+      color: red;
+      margin-left: 2px;
+    }
+  }
+  
+  .cross_user_section {
+    padding: 10px;
+    background-color: #fff6eb;
+    border: 1px solid #ffc400;
+    .icon-holder {
+      border-right: 2px solid #ffc400;
+      i {
+        color: #ff5630;
+      }
+    }
+    .assign-name {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 18px;
+      text-align: center;
+      color: #172b4d;
+    }
+  }
+
+  .prediction-modal .row{
+      margin: 0%;
+  }
+
+  .prediction-modal .card{
+        width: 100%;
+    }
+   .prediction-modal .confidence-score{
+        border: 1px solid #dfe1e6;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin: 24px;
+   }
+   .prediction-modal .confidence-score .details-data{
+    flex-basis: 33%;
+   }
+
+   .prediction-modal .feedback{
+        background-color: #F5F7F9;
+   }
+   .prediction-modal .btn.prevBtn, .prediction-modal .btn.nextBtn{
+     padding: 0% !important;
+     margin-right: 0px !important;
+   }
+   .prediction-modal .btn.nextBtn{
+    margin-left: -3px !important;
+  }
+  .prediction-modal .btn.disabled{
+    cursor:not-allowed;
+  }
+  

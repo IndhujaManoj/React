@@ -1,0 +1,67 @@
+.instance__control {
+  border: none !important;
+  height: 20px !important;
+  box-shadow: none !important;
+  /* margin-left: -3px; */
+}
+.instance__control:hover {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.instance__control::selection {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.instance__menu {
+  width: '120%';
+}
+.instance-container{
+  margin: 0.65rem;
+ 
+}
+
+
+.g-sidenav-show .instance-container {
+  border: 1px solid #C1C7D0;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin: 0.5rem;
+}
+
+.instance-container .icon-widget{
+  margin-top: 20px;
+  color: #0747A6;
+}
+
+.instance-container .title {
+  font-style: normal;
+  font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+  color: #172B4D;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+
+.widget-column {
+  margin-left: 15px;
+  padding-left: 10px !important;
+  border-radius: 6px;
+  
+  /* margin-top: 16px; */
+  /* margin-right: 12px; */
+  /* background-color: #F4F5F7; */
+}
+.g-sidenav-show .widget-column{
+  background-color: #F4F5F7 !important ;
+}
+.instance-column {
+  display: none;
+}
+.g-sidenav-show .instance-column {
+  display: block;
+  padding-left: 0px !important;
+  margin-left: 0px;
+}

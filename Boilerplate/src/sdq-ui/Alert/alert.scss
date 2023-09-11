@@ -1,0 +1,7 @@
+.alert-with-icon{
+    display: flex;
+    align-items: flex-start;
+    & span[class^="ni"]{
+        margin-top: 5px;
+    }
+}
