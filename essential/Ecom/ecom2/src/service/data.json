@@ -1,0 +1,84 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "size": "S",
+        "name": "red frock",
+         "category_id": 1,
+        "price": 899.1,
+        "image": "/Assets/redFrock.jpeg"
+      },
+      {
+        "id": 2,
+        "name": "white frock",
+        "category_id": 1,
+        "price": 899.2,
+        "image": "./Assets/white.jpeg",
+        "delivery": "Free delivery",
+        "size": "XL"
+      },
+      {
+        "id": 3,
+        "size": "SM",
+        "name": "white frock",
+        "category_id": 1,
+        "price": 899.3,
+        "image": "./Assets/black.jpeg",
+        "delivery": "Free delivery"
+      },
+      {
+        "id": 4,
+        "size": "XL",
+        "delivery": "Free delivery",
+        "name": "white frock",
+        "category_id": 1,
+        "price": 899.4,
+        "image": "./Assets/white.jpeg"
+      },
+      {
+        "id": 5,
+        "size": "SM",
+        "name": "red frock",
+        "category_id": 1,
+        "price": 899.5,
+        "image": "/Assets/black.jpeg"
+      },
+      {
+        "id": 6,
+        "size": "S",
+        "name": "white frock",
+        "category_id": 1,
+        "price": 899.6,
+        "image": "/Assets/redFrock.jpeg"
+
+      },
+      {
+        "id": 7,
+        "size": "S",
+        "name": "white frock",
+        "category_id": 1,
+        "price": 899.99,
+        "image": "/Assets/redFrock.jpeg",
+
+        "delivery": "Free delivery"
+      },
+      {
+        "id": 8,
+        "size": "SM",
+        "name": "white frock",
+        "category_id": 1,
+        "price": 899.7,
+        "image": "./Assets/black.jpeg",
+        "delivery": "Free delivery"
+      },
+      {
+        "id": 9,
+        "size": "XL",
+        "name": "white frock",
+        "category_id": 1,
+        "price": 899.8,
+        "image": "./Assets/white.jpeg"
+      }
+    ]
+  }
+  
